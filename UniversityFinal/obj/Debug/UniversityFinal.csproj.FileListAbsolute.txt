@@ -74,3 +74,4 @@ C:\Users\Hafiz\Desktop\GroupProject-University\UniversityFinal\obj\Debug\Univers
 C:\Users\Hafiz\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.csproj.GenerateResource.Cache
 C:\Users\Hafiz\Desktop\GroupProject-University\UniversityFinal\bin\Debug\UniversityFinal.exe
 C:\Users\Hafiz\Desktop\GroupProject-University\UniversityFinal\bin\Debug\UniversityFinal.pdb
+C:\Users\Hafiz\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.csprojResolveAssemblyReference.cache

@@ -142,7 +142,7 @@ namespace UniversityFinal.DLL.GETWAY
                     ViewEnrolledCourses aEnrolledCourses = new ViewEnrolledCourses();
                     if (studentId == (int) aReader[1])
                     {
-                       // aEnrolledCourses.StudentId = (int) aReader[1];
+                       // aEnrolledCourses.StudentID = (int) aReader[1];
                         aEnrolledCourses.CourseId = (int) aReader[2];
                         aEnrolledCourses.CourseName = aReader[3].ToString();
                         aEnrolledCourses.CourseTitle = aReader[4].ToString();

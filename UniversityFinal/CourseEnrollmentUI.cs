@@ -52,6 +52,7 @@ namespace UniversityApp
         {
             aCourse = new Course();
             aCourse = (Course) courseCourseComboBox.SelectedItem;
+            
             aCourse.StudentID = aStudent.StudentID;      
             aCourse.EnrollmentDate = courseDateTimePicker.Text;
             string msg=aCourseEnrollmentBll.Save(aCourse);

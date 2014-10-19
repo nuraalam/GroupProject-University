@@ -138,6 +138,8 @@
             // 
             // resultDateTimePicker
             // 
+            this.resultDateTimePicker.CustomFormat = "dddd, MMMM dd, yyyy";
+            this.resultDateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.resultDateTimePicker.Location = new System.Drawing.Point(146, 236);
             this.resultDateTimePicker.Name = "resultDateTimePicker";
             this.resultDateTimePicker.Size = new System.Drawing.Size(200, 20);
@@ -179,6 +181,7 @@
             this.saveResultEntryButton.TabIndex = 8;
             this.saveResultEntryButton.Text = "Save";
             this.saveResultEntryButton.UseVisualStyleBackColor = true;
+            this.saveResultEntryButton.Click += new System.EventHandler(this.saveResultEntryButton_Click);
             // 
             // ResultEntryUI
             // 

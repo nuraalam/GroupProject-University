@@ -45,7 +45,7 @@ namespace UniversityFinal.BLL
             return "Course Enrollment Completed";
         }
 
-        private bool CourseHasBeenTaken(Course aCourse)
+        public bool CourseHasBeenTaken(Course aCourse)
         {
             List<ViewEnrolledCourses> allEnrolledCourseses = GetEnrolledCourses(aCourse.StudentID);
             foreach (var anEnrolledCourse in allEnrolledCourseses)

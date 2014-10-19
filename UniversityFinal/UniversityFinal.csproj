@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLL\CourseEnrollmentBLL.cs" />
+    <Compile Include="DLL\GETWAY\ResultEntryGateway.cs" />
     <Compile Include="CourseEnrollmentUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,6 +57,8 @@
     <Compile Include="DLL\DAO\Student.cs" />
     <Compile Include="DLL\GETWAY\CourseEnrollmentGateway.cs" />
     <Compile Include="DLL\View\ViewEnrolledCourses.cs" />
+    <Compile Include="DLL\View\ViewResultSheet.cs" />
+    <Compile Include="BLL\ResultEntryBLL.cs" />
     <Compile Include="ResultEntryUI.cs">
       <SubType>Form</SubType>
     </Compile>
