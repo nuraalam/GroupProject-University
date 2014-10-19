@@ -63,3 +63,14 @@ C:\Users\Hafiz\Desktop\video\new\GroupProject-master\New folder\UniversityFinal\
 C:\Users\Hafiz\Desktop\video\new\GroupProject-master\UniversityFinal\bin\Debug\UniversityFinal.exe.config
 C:\Users\Hafiz\Desktop\video\new\GroupProject-master\UniversityFinal\obj\Debug\UniversityFinal.exe
 C:\Users\Hafiz\Desktop\video\new\GroupProject-master\UniversityFinal\obj\Debug\UniversityFinal.pdb
+C:\Users\Hafiz\Desktop\GroupProject-University\UniversityFinal\bin\Debug\UniversityFinal.exe.config
+C:\Users\Hafiz\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.exe
+C:\Users\Hafiz\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.pdb
+C:\Users\Hafiz\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityApp.CourseEnrollmentUI.resources
+C:\Users\Hafiz\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityApp.ResultEntryUI.resources
+C:\Users\Hafiz\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.MainUI.resources
+C:\Users\Hafiz\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.Properties.Resources.resources
+C:\Users\Hafiz\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversittyApp.ShowResultSheetUI.resources
+C:\Users\Hafiz\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.csproj.GenerateResource.Cache
+C:\Users\Hafiz\Desktop\GroupProject-University\UniversityFinal\bin\Debug\UniversityFinal.exe
+C:\Users\Hafiz\Desktop\GroupProject-University\UniversityFinal\bin\Debug\UniversityFinal.pdb

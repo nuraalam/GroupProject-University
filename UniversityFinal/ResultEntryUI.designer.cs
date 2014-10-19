@@ -40,7 +40,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.resultDateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.saveButton = new System.Windows.Forms.Button();
+            this.findResultEntryButton = new System.Windows.Forms.Button();
             this.viewResultSheetButton = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.saveResultEntryButton = new System.Windows.Forms.Button();
@@ -143,14 +143,15 @@
             this.resultDateTimePicker.Size = new System.Drawing.Size(200, 20);
             this.resultDateTimePicker.TabIndex = 4;
             // 
-            // saveButton
+            // findResultEntryButton
             // 
-            this.saveButton.Location = new System.Drawing.Point(265, 33);
-            this.saveButton.Name = "saveButton";
-            this.saveButton.Size = new System.Drawing.Size(75, 23);
-            this.saveButton.TabIndex = 5;
-            this.saveButton.Text = "Find";
-            this.saveButton.UseVisualStyleBackColor = true;
+            this.findResultEntryButton.Location = new System.Drawing.Point(265, 33);
+            this.findResultEntryButton.Name = "findResultEntryButton";
+            this.findResultEntryButton.Size = new System.Drawing.Size(75, 23);
+            this.findResultEntryButton.TabIndex = 5;
+            this.findResultEntryButton.Text = "Find";
+            this.findResultEntryButton.UseVisualStyleBackColor = true;
+            this.findResultEntryButton.Click += new System.EventHandler(this.findResultEntryButton_Click);
             // 
             // viewResultSheetButton
             // 
@@ -187,7 +188,7 @@
             this.Controls.Add(this.saveResultEntryButton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.viewResultSheetButton);
-            this.Controls.Add(this.saveButton);
+            this.Controls.Add(this.findResultEntryButton);
             this.Controls.Add(this.resultDateTimePicker);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label5);
@@ -202,7 +203,6 @@
             this.Controls.Add(this.regNoResultEntryTextBox);
             this.Name = "ResultEntryUI";
             this.Text = "ResultEntryUI";
-            this.Load += new System.EventHandler(this.ResultEntryUI_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -222,7 +222,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.DateTimePicker resultDateTimePicker;
-        private System.Windows.Forms.Button saveButton;
+        private System.Windows.Forms.Button findResultEntryButton;
         private System.Windows.Forms.Button viewResultSheetButton;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button saveResultEntryButton;

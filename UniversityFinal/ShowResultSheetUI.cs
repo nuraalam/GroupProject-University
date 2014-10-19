@@ -12,8 +12,12 @@ using UniversityFinal.DLL.DAO;
 
 namespace UniversittyApp
 {
+
     public partial class ShowResultSheetUI : Form
     {
+        private CourseEnrollmentBLL aCourseEnrollmentBll;
+        private Student aStudent;
+        private Course aCourse;
         public ShowResultSheetUI()
         {
             InitializeComponent();
@@ -21,11 +25,12 @@ namespace UniversittyApp
 
         private void findResultSheetButton_Click(object sender, EventArgs e)
         {
-            CourseEnrollmentBLL aCourseEnrollmentBll = new CourseEnrollmentBLL();
-            Student aStudent = new Student();
+            aCourseEnrollmentBll = new CourseEnrollmentBLL();
+            aStudent = new Student();
             aStudent.RegNo = regNoResultSheetTextBox.Text;
             NameResultSheetTextBox.Text = aCourseEnrollmentBll.GetStudentName(aStudent.RegNo);
             emailResultSheetTextBox.Text = aCourseEnrollmentBll.GetStudentEmail(aStudent.RegNo);
+            aStudent.StudentID = aCourseEnrollmentBll.GetStudentID(aStudent.RegNo);
         }
 
 
