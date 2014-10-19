@@ -186,12 +186,12 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Course-Code";
+            this.columnHeader1.Text = "Course Title";
             this.columnHeader1.Width = 178;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Title";
+            this.columnHeader2.Text = "Course Name";
             this.columnHeader2.Width = 169;
             // 
             // columnHeader3

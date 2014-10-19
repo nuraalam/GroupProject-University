@@ -73,6 +73,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShowResultSheetBLL.cs" />
     <Compile Include="ShowResultSheetUI.cs">
       <SubType>Form</SubType>
     </Compile>
