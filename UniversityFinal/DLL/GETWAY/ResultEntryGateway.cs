@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;
 using UniversityFinal.DLL.DAO;
@@ -55,6 +56,36 @@ namespace UniversityApp
             }
             connection.Close();
             return false;
+        }
+
+        public List<ViewResultSheet> GetResultSheet(Course aCourse)
+        {
+            CallForConnection();
+            connection.Open();
+            query = String.Format("SELECT* FROM ResultSheet");
+            command = new SqlCommand(query, connection);
+            SqlDataReader aReader = command.ExecuteReader();
+            
+            List<ViewResultSheet> viewResultSheetList=new List<ViewResultSheet>();
+            if (aReader.HasRows)
+            {
+                while (aReader.Read())
+                {
+                    ViewResultSheet aViewResultSheet=new ViewResultSheet();
+                    if (aCourse.StudentID == (int) aReader[1])
+                    {
+                        aViewResultSheet.CourseTitle = aReader[3].ToString();
+                        aViewResultSheet.CourseName = aReader[4].ToString();
+                        aViewResultSheet.Score = (double) aReader[5];
+                        aViewResultSheet.GradeLetter = aReader[6].ToString();
+                        aViewResultSheet.PublishingDate = aReader[7].ToString();
+                        viewResultSheetList.Add(aViewResultSheet);
+                    }
+                        
+                }
+            }
+            connection.Close();
+            return viewResultSheetList;
         }
     }
 }

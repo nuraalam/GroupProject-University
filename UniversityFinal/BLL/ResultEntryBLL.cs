@@ -1,4 +1,5 @@
-﻿using UniversityFinal.BLL;
+﻿using System.Collections.Generic;
+using UniversityFinal.BLL;
 using UniversityFinal.DLL.DAO;
 using UniversityFinal.DLL.View;
 
@@ -50,6 +51,19 @@ namespace UniversityApp
                 return true;
             }
             return false;
+        }
+
+
+        public string GetResultSheet(Course aCourse)
+        {
+            string msg ="Title\tScore\tGrade\tPublishingDate\n";
+            List<ViewResultSheet> aViewResultSheets = aResultEntryGateway.GetResultSheet(aCourse);
+            foreach (ViewResultSheet resultSheet in aViewResultSheets)
+            {
+                msg += resultSheet.CourseTitle + "\t" + resultSheet.Score + "\t" +
+                      resultSheet.GradeLetter + "\t" + resultSheet.PublishingDate + "\n";
+            }
+            return msg;
         }
     }
 }

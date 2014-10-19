@@ -17,6 +17,10 @@ namespace UniversityApp
     {
         private CourseEnrollmentBLL aCourseEnrollmentBll;
         private Student aStudent;
+        private ViewResultSheet aViewResultSheet;
+        private ResultEntryBLL aResultEntryBLL;
+        private Course aCourse;
+
         public ResultEntryUI()
         {
             InitializeComponent();
@@ -46,14 +50,14 @@ namespace UniversityApp
 
         private void saveResultEntryButton_Click(object sender, EventArgs e)
         {
-            ViewResultSheet aViewResultSheet=new ViewResultSheet();
-            ResultEntryBLL aResultEntryBLL=new ResultEntryBLL();
-            Course aCourse=new Course();
-            aCourse = (Course) courseResultEntryComboBox.SelectedItem; 
+            aViewResultSheet = new ViewResultSheet();
+            aResultEntryBLL = new ResultEntryBLL();
+            aCourse = new Course();
+            aCourse  = (Course) courseResultEntryComboBox.SelectedItem; 
             aViewResultSheet.StudentID = aStudent.StudentID;
-            aViewResultSheet.CourseID = aCourse.CourseID;
-            aViewResultSheet.CourseTitle = aCourse.CourseTitle;
-            aViewResultSheet.CourseName = aCourse.CourseName;
+            aViewResultSheet.CourseID = aCourse .CourseID;
+            aViewResultSheet.CourseTitle = aCourse .CourseTitle;
+            aViewResultSheet.CourseName = aCourse .CourseName;
             aViewResultSheet.Score = Convert.ToDouble(scoreResultEntryTextBox.Text);
             aViewResultSheet.GradeLetter = aResultEntryBLL.CalculateGrade(aViewResultSheet.Score);
             aViewResultSheet.PublishingDate = resultDateTimePicker.Text;
@@ -61,6 +65,15 @@ namespace UniversityApp
             MessageBox.Show(msg);
 
 
+        }
+
+        private void viewResultSheetButton_Click(object sender, EventArgs e)
+        {
+
+            string msg = "Student Reg No. "+regNoResultEntryTextBox.Text + "\t" + "Student Name: "+nameResultEntryTextBox.Text + "\n";
+            aCourse.StudentID = aStudent.StudentID;
+            msg += aResultEntryBLL.GetResultSheet(aCourse);
+            MessageBox.Show(msg);
         }
 
       
