@@ -25,6 +25,8 @@ namespace UniversityApp
         {
             InitializeComponent();
             ShowCourseNameComboBox();
+            viewResultSheetButton.Enabled = false;
+            saveResultEntryButton.Enabled = false;
         }
         private void ShowCourseNameComboBox()
         {
@@ -46,6 +48,8 @@ namespace UniversityApp
             nameResultEntryTextBox.Text = aCourseEnrollmentBll.GetStudentName(aStudent.RegNo);
             emailResultEntryTextBox.Text = aCourseEnrollmentBll.GetStudentEmail(aStudent.RegNo);
             aStudent.StudentID = aCourseEnrollmentBll.GetStudentID(aStudent.RegNo);
+            viewResultSheetButton.Enabled = true;
+            saveResultEntryButton.Enabled = true;
         }
 
         private void saveResultEntryButton_Click(object sender, EventArgs e)

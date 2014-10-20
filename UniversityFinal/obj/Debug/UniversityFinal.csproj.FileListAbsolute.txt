@@ -86,3 +86,4 @@ C:\Users\RANA\Desktop\GroupProject-University\UniversityFinal\obj\Debug\Universi
 C:\Users\RANA\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.Properties.Resources.resources
 C:\Users\RANA\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversittyApp.ShowResultSheetUI.resources
 C:\Users\RANA\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.csproj.GenerateResource.Cache
+C:\Users\RANA\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.csprojResolveAssemblyReference.cache
