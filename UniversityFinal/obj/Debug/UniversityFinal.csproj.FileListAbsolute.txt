@@ -88,8 +88,6 @@ C:\Users\RANA\Desktop\GroupProject-University\UniversityFinal\obj\Debug\Universi
 C:\Users\RANA\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.csproj.GenerateResource.Cache
 C:\Users\RANA\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.csprojResolveAssemblyReference.cache
 C:\Users\PC21\Desktop\GroupProject-University\UniversityFinal\bin\Debug\UniversityFinal.exe.config
-C:\Users\PC21\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.exe
-C:\Users\PC21\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.pdb
 C:\Users\PC21\Desktop\GroupProject-University\UniversityFinal\bin\Debug\UniversityFinal.exe
 C:\Users\PC21\Desktop\GroupProject-University\UniversityFinal\bin\Debug\UniversityFinal.pdb
 C:\Users\PC21\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.csprojResolveAssemblyReference.cache
@@ -99,3 +97,5 @@ C:\Users\PC21\Desktop\GroupProject-University\UniversityFinal\obj\Debug\Universi
 C:\Users\PC21\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.Properties.Resources.resources
 C:\Users\PC21\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversittyApp.ShowResultSheetUI.resources
 C:\Users\PC21\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.csproj.GenerateResource.Cache
+C:\Users\PC21\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.exe
+C:\Users\PC21\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.pdb

@@ -20,8 +20,8 @@ namespace UniversityFinal.BLL
 
         public string GetStudentEmail(string regNo)
         {
-            string email = aCourseEnrollmentGateway.GetEmailAddress(regNo);
-            return email;
+
+            return aCourseEnrollmentGateway.GetEmailAddress(regNo);
         }
 
         public List<Course> GetCourseNameList()
