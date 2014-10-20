@@ -14,8 +14,8 @@ namespace UniversityFinal.BLL
         CourseEnrollmentGateway aCourseEnrollmentGateway=new CourseEnrollmentGateway();
         public string GetStudentName(string regNo)
         {
-            string name = aCourseEnrollmentGateway.GetCourseName(regNo);
-            return name;
+
+            return aCourseEnrollmentGateway.GetCourseName(regNo);
         }
 
         public string GetStudentEmail(string regNo)
