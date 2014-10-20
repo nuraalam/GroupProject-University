@@ -22,6 +22,7 @@ namespace UniversityApp
         {
             InitializeComponent();
             ShowCourseNameComboBox();
+            enrollButton.Enabled = false;
         }
 
         private void ShowCourseNameComboBox()
@@ -46,6 +47,7 @@ namespace UniversityApp
             emailCourseTextBox.Text = aCourseEnrollmentBll.GetStudentEmail(aStudent.RegNo);
             aStudent.StudentID = aCourseEnrollmentBll.GetStudentID(aStudent.RegNo);
             ShowEnrolledCourses();
+            enrollButton.Enabled = true;
         }
 
         private void enrollButton_Click(object sender, System.EventArgs e)
