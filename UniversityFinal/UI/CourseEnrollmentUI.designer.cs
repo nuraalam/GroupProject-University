@@ -40,11 +40,11 @@
             this.findCourseButton = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.enrolledCoursesListView = new System.Windows.Forms.ListView();
-            this.courseDateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.enrollButton = new System.Windows.Forms.Button();
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.courseDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.enrollButton = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -156,6 +156,21 @@
             this.enrolledCoursesListView.UseCompatibleStateImageBehavior = false;
             this.enrolledCoursesListView.View = System.Windows.Forms.View.Details;
             // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "Course Title";
+            this.columnHeader4.Width = 82;
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "Course Name";
+            this.columnHeader5.Width = 245;
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "Enrollment Date";
+            this.columnHeader6.Width = 170;
+            // 
             // courseDateTimePicker
             // 
             this.courseDateTimePicker.CustomFormat = "dddd, MMMM dd, yyyy";
@@ -175,21 +190,6 @@
             this.enrollButton.Text = "Enroll";
             this.enrollButton.UseVisualStyleBackColor = true;
             this.enrollButton.Click += new System.EventHandler(this.enrollButton_Click);
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "Course Title";
-            this.columnHeader4.Width = 80;
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.Text = "Course Name";
-            this.columnHeader5.Width = 245;
-            // 
-            // columnHeader6
-            // 
-            this.columnHeader6.Text = "Enrollment Date";
-            this.columnHeader6.Width = 170;
             // 
             // CourseEnrollmentUI
             // 
