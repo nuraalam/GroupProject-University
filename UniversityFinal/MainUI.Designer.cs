@@ -31,7 +31,6 @@
             this.enrollButton = new System.Windows.Forms.Button();
             this.enterResultButton = new System.Windows.Forms.Button();
             this.ShowResultButton = new System.Windows.Forms.Button();
-            this.exitButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // enrollButton
@@ -64,22 +63,11 @@
             this.ShowResultButton.UseVisualStyleBackColor = true;
             this.ShowResultButton.Click += new System.EventHandler(this.ShowResultButton_Click);
             // 
-            // exitButton
-            // 
-            this.exitButton.Location = new System.Drawing.Point(437, 289);
-            this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(75, 23);
-            this.exitButton.TabIndex = 3;
-            this.exitButton.Text = "Exit";
-            this.exitButton.UseVisualStyleBackColor = true;
-            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
-            // 
             // MainUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(555, 336);
-            this.Controls.Add(this.exitButton);
             this.Controls.Add(this.ShowResultButton);
             this.Controls.Add(this.enterResultButton);
             this.Controls.Add(this.enrollButton);
@@ -94,7 +82,6 @@
         private System.Windows.Forms.Button enrollButton;
         private System.Windows.Forms.Button enterResultButton;
         private System.Windows.Forms.Button ShowResultButton;
-        private System.Windows.Forms.Button exitButton;
     }
 }
 

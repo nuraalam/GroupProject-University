@@ -80,7 +80,6 @@ C:\Users\RANA\Desktop\GroupProject-University\UniversityFinal\obj\Debug\Universi
 C:\Users\RANA\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.pdb
 C:\Users\RANA\Desktop\GroupProject-University\UniversityFinal\bin\Debug\UniversityFinal.exe
 C:\Users\RANA\Desktop\GroupProject-University\UniversityFinal\bin\Debug\UniversityFinal.pdb
-C:\Users\RANA\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.csprojResolveAssemblyReference.cache
 C:\Users\RANA\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityApp.CourseEnrollmentUI.resources
 C:\Users\RANA\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityApp.ResultEntryUI.resources
 C:\Users\RANA\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.MainUI.resources
