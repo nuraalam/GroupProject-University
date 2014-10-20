@@ -9,6 +9,10 @@ namespace UniversityApp
     {
         private ResultEntryGateway aResultEntryGateway;
 
+      public  ResultEntryBLL()
+        {
+            aResultEntryGateway = new ResultEntryGateway();
+        }
         public  string CalculateGrade(double score)
         {
             if (score>=90)
@@ -28,7 +32,7 @@ namespace UniversityApp
 
         public string Save(ViewResultSheet aViewResultSheet)
         {
-            aResultEntryGateway = new ResultEntryGateway();
+            
             CourseEnrollmentBLL aCourseEnrollmentBLL=new CourseEnrollmentBLL();
             Course aCourse=new Course();
             aCourse.StudentID = aViewResultSheet.StudentID;

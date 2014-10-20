@@ -13,12 +13,15 @@ namespace UniversittyApp
         private double averageScore;
         private int countNumberOfCourse;
 
-        public List<ViewResultSheet> GetResultSheet(Course aCourse)
+        public ShowResultSheetBLL()
         {
             aResultEntryGateway = new ResultEntryGateway();
-            List<ViewResultSheet> resultList=aResultEntryGateway.GetResultSheet(aCourse);
-           
-            return resultList;
+        }
+
+        public List<ViewResultSheet> GetResultSheet(Course aCourse)
+        {
+
+            return aResultEntryGateway.GetResultSheet(aCourse);
         }
 
         public string GetAvgScore(Course aCourse)

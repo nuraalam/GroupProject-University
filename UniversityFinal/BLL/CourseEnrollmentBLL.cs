@@ -20,20 +20,20 @@ namespace UniversityFinal.BLL
 
         public string GetStudentEmail(string regNo)
         {
-
+          
             return aCourseEnrollmentGateway.GetEmailAddress(regNo);
         }
 
         public List<Course> GetCourseNameList()
         {
-            List<Course> aCourseNameList = aCourseEnrollmentGateway.GetCourseNameList();
-            return aCourseNameList;
+         
+            return aCourseEnrollmentGateway.GetCourseNameList();
         }
 
         public int GetStudentID(string regNo)
         {
-            int studentID = aCourseEnrollmentGateway.GetStudentID(regNo);
-            return studentID;
+          
+            return aCourseEnrollmentGateway.GetStudentID(regNo);
         }
 
         public string Save(Course aCourse)
@@ -60,8 +60,8 @@ namespace UniversityFinal.BLL
 
         public List<ViewEnrolledCourses> GetEnrolledCourses(int studentId)
         {
-            List<ViewEnrolledCourses> allEnrolledCourseses = aCourseEnrollmentGateway.GetEnrolledCourses(studentId);
-            return allEnrolledCourseses;
+          
+            return aCourseEnrollmentGateway.GetEnrolledCourses(studentId);
         }
     }
 }
