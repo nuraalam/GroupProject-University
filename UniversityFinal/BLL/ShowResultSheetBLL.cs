@@ -38,13 +38,13 @@ namespace UniversittyApp
                 return averageScore.ToString();
             }
 
-            return "N/A";
+            return "Not Applicable";
         }
 
         public string GetGradeLetter(Course aCourse)
         {
             if (countNumberOfCourse == 0)
-                return "N/A";
+                return "Not Applicable";
             if (averageScore >= 90)
             {
                 return "A";

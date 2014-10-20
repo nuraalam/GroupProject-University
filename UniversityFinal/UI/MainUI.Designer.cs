@@ -71,6 +71,7 @@
             this.Controls.Add(this.ShowResultButton);
             this.Controls.Add(this.enterResultButton);
             this.Controls.Add(this.enrollButton);
+            this.MaximizeBox = false;
             this.Name = "MainUI";
             this.Text = "MainUI";
             this.ResumeLayout(false);

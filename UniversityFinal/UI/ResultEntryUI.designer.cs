@@ -205,6 +205,7 @@
             this.Controls.Add(this.emailResultEntryTextBox);
             this.Controls.Add(this.nameResultEntryTextBox);
             this.Controls.Add(this.regNoResultEntryTextBox);
+            this.MaximizeBox = false;
             this.Name = "ResultEntryUI";
             this.Text = "ResultEntryUI";
             this.ResumeLayout(false);

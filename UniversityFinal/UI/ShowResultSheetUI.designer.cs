@@ -211,6 +211,7 @@
             this.ClientSize = new System.Drawing.Size(838, 371);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.MaximizeBox = false;
             this.Name = "ShowResultSheetUI";
             this.Text = "ResultSheetUI";
             this.groupBox1.ResumeLayout(false);
