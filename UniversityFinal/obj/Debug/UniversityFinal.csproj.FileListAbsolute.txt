@@ -99,3 +99,15 @@ C:\Users\PC21\Desktop\GroupProject-University\UniversityFinal\obj\Debug\Universi
 C:\Users\PC21\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.Properties.Resources.resources
 C:\Users\PC21\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversittyApp.ShowResultSheetUI.resources
 C:\Users\PC21\Desktop\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.csproj.GenerateResource.Cache
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\GroupProject-University\UniversityFinal\bin\Debug\UniversityFinal.exe.config
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.exe
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.pdb
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\GroupProject-University\UniversityFinal\bin\Debug\UniversityFinal.exe
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\GroupProject-University\UniversityFinal\bin\Debug\UniversityFinal.pdb
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.csprojResolveAssemblyReference.cache
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\GroupProject-University\UniversityFinal\obj\Debug\UniversityApp.CourseEnrollmentUI.resources
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\GroupProject-University\UniversityFinal\obj\Debug\UniversityApp.ResultEntryUI.resources
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.MainUI.resources
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.Properties.Resources.resources
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\GroupProject-University\UniversityFinal\obj\Debug\UniversittyApp.ShowResultSheetUI.resources
+D:\00.  BASIS  .00\4. DOWNLOAD APP USING GITHUB\GroupProject-University\UniversityFinal\obj\Debug\UniversityFinal.csproj.GenerateResource.Cache
